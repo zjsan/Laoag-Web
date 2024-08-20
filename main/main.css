@@ -4,7 +4,13 @@ body{
     background-color: #FAFCF9;
     height: 100%;
     width: 100%;
+    
    
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
 }
 .heading-section{
     margin-top: 0px;
@@ -96,3 +102,109 @@ body{
     font-weight: bolder;
 } 
 
+.history-section{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.history-section h2{
+    font-size: 2.5rem;
+}
+
+.history-landmark-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.history-pictures{
+    width: 475px;
+    height: 439px;
+    border-radius: 50%;
+}
+
+#cathedral{
+    margin-right: 6rem;
+}
+
+.history-text{
+    width: 950px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.visit-section{
+    margin-top: 8rem;
+}
+
+.visit-contents h2{
+    margin-bottom: 5rem;
+}
+.visit-contents p{
+    width: 925px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.visit-contents{
+    margin-bottom: 5rem;
+}
+
+.visit-pictures img{
+    width: 486px;
+    height: 324px;
+    margin-right: 3rem;
+    border-radius: 20px;
+}
+
+.visit-pictures-top, .visit-pictures-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+
+.discover-img{
+    width: 720px;
+    height: 377px;
+    margin: auto;
+}
+.discover-text{
+    margin: auto;
+    width: 925px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+.discover-section{
+    margin-bottom: 15rem;
+}
+
+.footer-section{
+    background-color: #dae2e7;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+footer p{
+    text-align: center;
+}
+
+#credits{
+    font-weight: bolder;
+}
+
+.footer-texts-cols{
+    display: flex;
+    justify-content: start;
+    
+   
+}
+
+.info-text{
+    display: block;
+}
