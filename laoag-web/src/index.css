@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #f0f0f0; /* Change background color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #333; /* Change link color */
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #ddd; /* Change toggle button border color */
+}

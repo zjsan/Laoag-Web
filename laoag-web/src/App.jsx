@@ -2,7 +2,7 @@
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Body from './components/Main'
+import Main from './components/Main'
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Body/>
+      <Main />
       <Footer/>
     </>
   )
