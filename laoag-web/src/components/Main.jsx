@@ -25,10 +25,7 @@ const Main = () => {
         </div>
         </div>
       </main>  
-    </div>
-
-
-  
+    </div>  
   )
 }
 
