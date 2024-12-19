@@ -14,11 +14,13 @@ span{
 h2{
   font-size: 2.25rem;
   text-align: center;
+  margin-bottom: 1em;
 }
 
 p{
   line-height: 35px;
   font-size: 1rem;
+  text-align: justify;
 }
 
 
@@ -46,20 +48,37 @@ p{
 
 img{
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
+.history-landmark-container img, .visit-pictures img{
+  margin-bottom: 1em;
+}
 
-@media (max-width: 480px) {
-  .intro-section {
-    height: auto; /* Adjust for smaller screens */
-    padding: 3rem 1rem;
-    background-size: contain;
-  }
+.footer-section{
+  background-color: #dae2e7;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
-  .intro-section h2 {
-    font-size: 2rem;
-  }
+footer p{
+  text-align: center;
+}
+
+#credits{
+  font-weight: bolder;
+}
+
+.footer-texts-cols{
+  display: flex;
+  justify-content: start;
+  
  
 }
+
+.info-text{
+  display: block;
+}
+
+
