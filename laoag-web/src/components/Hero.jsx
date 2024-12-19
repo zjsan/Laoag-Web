@@ -1,4 +1,4 @@
-import Image from 'react-bootstrap/Image';
+
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
                   in the native Ilocano language, symbolizing the warmth and hospitality of its people. The city’s rich history, stunning landscapes, and cultural heritage make it a must-visit destination for travelers seeking to experience the best of the Ilocos region.</p>
                   <p>Discover the exciting activities and sumptuous dishes of Laoag City in Ilocos Norte. Read this guide to learn about the best time to go, how to go, where to stay, what to see and do, and other travel tips to help you plan your trip to the The Sunshine City of the north.</p>
               </div>
-              <Image src="/laoag-web/public/images/laoag-welcome-arc 1.png" alt="An image of the Laoag City Gilbert Bridge"/>
+              <img src="/images/laoag-welcome-arc 1.png" alt="An image of the Laoag City Gilbert Bridge"/>
           </div>  
       </div>  
     </section>
