@@ -2,15 +2,22 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import Main from './components/Main'
-
+import Hero from './components/Hero'
+import History from './components/History'
+import Visit from './components/Visit'
+import Discover from './components/Discover'
 
 function App() {
  
   return (
     <>
       <Navbar/>
-      <Main />
+      <main className='container'>
+        <Hero />
+        <History />
+        <Visit />
+        <Discover />
+      </main>
       <Footer/>
     </>
   )
