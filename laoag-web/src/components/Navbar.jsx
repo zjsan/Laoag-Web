@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <Navbar className="navbar" expand="lg">
       <Container>
-        <Navbar.Brand href="#">Laoag City</Navbar.Brand>
+        <Navbar.Brand href="#">Laoag Ilocos Norte Travel</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

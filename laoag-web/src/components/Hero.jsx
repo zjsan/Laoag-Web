@@ -3,8 +3,7 @@
 const Hero = () => {
   return (
     
-    <section id="hero">
-        
+    <section id="hero" className="hero-section d-flex align-items-center justify-content-center ">
         <div>
         <h2 display-4>Welcome to Laoag City: The Sunshine City of the North</h2>
           <div className="hero-contents">

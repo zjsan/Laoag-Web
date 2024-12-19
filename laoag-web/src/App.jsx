@@ -6,13 +6,16 @@ import Hero from './components/Hero'
 import History from './components/History'
 import Visit from './components/Visit'
 import Discover from './components/Discover'
+import Intro from './components/Intro'
 
 function App() {
  
   return (
     <>
       <Navbar/>
+      <Intro />
       <main className='container'>
+       
         <Hero />
         <History />
         <Visit />
