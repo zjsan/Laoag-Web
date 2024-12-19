@@ -44,7 +44,11 @@ p{
   margin: 2em 0;
 }
 
-
+img{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 
 @media (max-width: 480px) {
@@ -56,18 +60,6 @@ p{
 
   .intro-section h2 {
     font-size: 2rem;
-  }
-
-  .hero-contents img{
-    margin: 0 auto;
-  }
- 
-}
-
-@media (max-width: 769px) and (max-width: 1280px) {
-
-  .hero-contents {
-  
   }
  
 }
