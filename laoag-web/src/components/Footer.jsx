@@ -3,10 +3,11 @@
 const Footer = () => {
   return (
     <footer>
+        <section>
+       
+        <div className="footer-section">
         <p>© 2024 Laoag City Tourism Office. All rights reserved</p>
         <p>This website is maintained by the Laoag City Tourism Office. The content is regularly updated to ensure accuracy. Please contact us for any queries or concerns.</p>
-
-        <div>
 
             <p>
                 Tourism Office of Laoag City
@@ -36,6 +37,8 @@ const Footer = () => {
                 </span>
             </p>
         </div>
+        </section>
+        
     </footer>
   )
 }
