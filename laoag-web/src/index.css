@@ -11,8 +11,9 @@ span{
   font-weight: bold;
 }
 
-h1{
+h2{
   font-size: 2.25rem;
+  text-align: center;
 }
 
 p{
@@ -46,18 +47,27 @@ p{
 
 
 
-@media (max-width: 765px) {
-  .hero-section {
+@media (max-width: 480px) {
+  .intro-section {
     height: auto; /* Adjust for smaller screens */
     padding: 3rem 1rem;
     background-size: contain;
   }
 
-  .hero-section h1 {
+  .intro-section h2 {
     font-size: 2rem;
   }
 
-  .hero-section p {
-    font-size: 1.2rem;
+  .hero-contents img{
+    margin: 0 auto;
   }
+ 
+}
+
+@media (max-width: 769px) and (max-width: 1280px) {
+
+  .hero-contents {
+  
+  }
+ 
 }
