@@ -7,10 +7,11 @@ const NavBar = () => {
         <Navbar.Brand href="#">Laoag City</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"/>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav className="ms-auto">
+            <Nav.Link className="nav-links" href="#home">Home</Nav.Link>
+            <Nav.Link className="nav-links" href="#about">History</Nav.Link>
+            <Nav.Link className="nav-links" href="#contact">Why Visit</Nav.Link>
+            <Nav.Link className="nav-links" href="#contact">Discover</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
