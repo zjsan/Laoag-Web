@@ -6,14 +6,14 @@ const Footer = () => {
         <section>
        
         <div className="footer-section">
-        <p>© 2024 Laoag City Tourism Office. All rights reserved</p>
-        <p>This website is maintained by the Laoag City Tourism Office. The content is regularly updated to ensure accuracy. Please contact us for any queries or concerns.</p>
+        <p>© 2024 Laoag Ilocos Norte Travel. All rights reserved</p>
+        <p>This website is maintained by the Laoag Ilocos Norte Travel developers. The content is regularly updated to ensure accuracy. Please contact us for any queries or concerns.</p>
 
             <p>
-                Tourism Office of Laoag City
+                Laoag Ilocos Norte Travel
                 <span>
                     
-                    Address: [Insert Address]
+                    Address: Laoag City, Ilocos Norte, Philippines
                     Phone: +63 [Insert Phone Number]
                     Email: tourism@laoagcity.gov.ph
                 </span>
