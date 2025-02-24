@@ -1,4 +1,4 @@
-html,body{
+html,body,*,root{
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -22,8 +22,6 @@ p{
   font-size: 1rem;
   text-align: justify;
 }
-
-
 .intro-section {
   background: url("/images/Laoag-City-Ilocos-Norte.jpg") no-repeat center center;
   background-size: cover;
@@ -38,8 +36,10 @@ p{
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Make text stand out */
 }
 
-.intro-section p {
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+.intro-section > p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+  font-size: 5px;
+  margin: auto;
 }
 
 #hero,#history-section,#visit-section,#discover-section {

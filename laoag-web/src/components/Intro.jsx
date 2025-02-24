@@ -1,18 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Intro = () => {
   return (
-    <section className="intro-section d-flex align-items-center justify-content-center text-center">
-    <div className="container intro-container">
-      <h1 className="display-3 fw-bold">
-        Laoag Ilocos Norte Travel
-      </h1>
-      <p className="lead fs-4">
-        Here's what you need to know about Laoag!
-      </p>
-    </div>
-  </section>
-  )
-}
+    <section className="intro-section d-flex align-items-center justify-content-center text-center mx-auto">
+      <div className="container intro-container">
+        <h1 className="display-3 fw-bold">Laoag Ilocos Norte Travel</h1>
+        <p className="lead fs-4 mx-auto">
+          Here's what you need to know about Laoag!
+        </p>
+      </div>
+    </section>
+  );
+};
 
-export default Intro
+export default Intro;
