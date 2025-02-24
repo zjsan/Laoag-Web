@@ -5,7 +5,7 @@ const Intro = () => {
     <section className="intro-section d-flex align-items-center justify-content-center text-center mx-auto">
       <div className="container intro-container">
         <h1 className="display-3 fw-bold">Laoag Ilocos Norte Travel</h1>
-        <p className="lead fs-4 mx-auto">
+        <p className="lead fs-4 mx-auto text-center">
           Here's what you need to know about Laoag!
         </p>
       </div>
