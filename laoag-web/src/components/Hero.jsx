@@ -9,7 +9,7 @@ const Hero = () => {
             alt="An image of the Laoag City Gilbert Bridge"
           />
           <div className="hero-text">
-            <p id="hero-first-p" className="lead fs-6 mt-3 m-auto section-paragraphs">
+            <p id="hero-first-p" className="lead fs-6 mt-5 m-auto section-paragraphs">
               Laoag City, known as the <span>Sunshine City</span> is the vibrant
               capital of Ilocos Norte, located in the northern part of the
               Philippines. The name <span>Laoag</span> translates to{" "}
