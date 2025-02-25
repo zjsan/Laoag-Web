@@ -2,14 +2,14 @@ const Hero = () => {
   return (
     <section id="hero">
       <div>
-        <h2 display-4>Welcome to Laoag City: The Sunshine City of the North</h2>
+        <h2 >Welcome to Laoag City: The Sunshine City of the North</h2>
         <div className="hero-contents">
           <img
             src="/images/laoag-welcome-arc 1.png"
             alt="An image of the Laoag City Gilbert Bridge"
           />
           <div className="hero-text">
-            <p id="hero-first-p" className="lead fs-5 mt-3 m-auto ">
+            <p id="hero-first-p" className="lead fs-6 mt-3 m-auto section-paragraphs">
               Laoag City, known as the <span>Sunshine City</span> is the vibrant
               capital of Ilocos Norte, located in the northern part of the
               Philippines. The name <span>Laoag</span> translates to{" "}
@@ -19,7 +19,7 @@ const Hero = () => {
               landscapes, and cultural heritage make it a must-visit destination
               for travelers seeking to experience the best of the Ilocos region.
             </p>
-            <p className="lead fs-5 mt-3">
+            <p className="lead fs-6 mt-3 section-paragraphs">
               Discover the exciting activities and sumptuous dishes of Laoag
               City in Ilocos Norte. Read this guide to learn about the best time
               to go, how to go, where to stay, what to see and do, and other
