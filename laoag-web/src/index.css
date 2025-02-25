@@ -1,8 +1,10 @@
-html,body,*,root{
+*,html,body{
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  box-sizing: border-box ;
 }
+
 
 body{
   background-color: #FAFCF9;
@@ -58,17 +60,26 @@ img{
 
 .footer-section{
   background-color: #dae2e7;
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding: 1rem
 }
 
+.footer-intro-credit{
+  font-weight: bold;
+}
+
+.footer-intro-credit-p{
+  font-weight: normal;
+}
 footer p{
-  text-align: center;
+  text-align: start;
+  font-weight: bold;
+
 }
 
 .footer-section span{
-  margin-left: 0.25rem;
   display: block;
+  font-weight: normal;
+  text-align: start;
 }
 
 #credits{
