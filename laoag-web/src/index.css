@@ -59,6 +59,9 @@ img{
   margin-bottom: 1em;
 }
 
+footer p, footer span{
+  font-size: 0.75rem;
+}
 .footer-section{
   background-color: #dae2e7;
   padding: 1rem
@@ -110,8 +113,25 @@ footer p{
 }
 
 
+
+@media (min-width: 768px){
+  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p,footer p, footer span{
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+ 
+
+}
+
 @media (min-width: 992px){
-  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p{
+  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p,footer p, footer span{
+    font-size: 1rem;
     text-align: start;
   }
+
+  .section-paragraphs{
+    font-size: 2.75rem;
+  }
+
 }
