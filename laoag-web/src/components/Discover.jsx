@@ -6,7 +6,7 @@ const Discover = () => {
         <div className="discover-img img-fluid rounded"> <img src="/images/img8469.jpg" alt="Ilocos Norte Capitol" /></div>
        
         <div className="discover-text">
-            <p className="lead fs-5 mt-3">Join us as we explore the Sunshine City’s rich history, iconic landmarks, delectable cuisine, and vibrant culture. Laoag is not just a place to visit—it’s a place to experience and remember. Whether you’re planning your first trip or returning to discover more, Laoag City welcomes you with open arms and endless possibilities.</p>
+            <p className="lead fs-6 mt-3 section-paragraphs">Join us as we explore the Sunshine City’s rich history, iconic landmarks, delectable cuisine, and vibrant culture. Laoag is not just a place to visit—it’s a place to experience and remember. Whether you’re planning your first trip or returning to discover more, Laoag City welcomes you with open arms and endless possibilities.</p>
         </div> 
     </section>
   )
