@@ -1,26 +1,26 @@
-
-*,html,body{
+*,
+html,
+body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  box-sizing: border-box ;
+  box-sizing: border-box;
 }
 
-
-body{
-  background-color: #FAFCF9;
+body {
+  background-color: #fafcf9;
 }
-span{
+span {
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-size: 2.25rem;
   text-align: center;
   margin-bottom: 1em;
 }
 
-p{
+p {
   line-height: 35px;
   font-size: 1rem;
   text-align: justify;
@@ -39,104 +39,128 @@ p{
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Make text stand out */
 }
 
-.intro-section  p {
+.intro-section p {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
   font-size: 5px;
   margin: auto;
 }
 
-#hero,#history-section,#visit-section,#discover-section {
-  margin: 2em 0;
+#hero,
+#history-section,
+#visit-section,
+#discover-section {
+  margin: 5em 0;
 }
 
-img{
+img {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
 }
 
-.history-landmark-container img, .visit-pictures img{
+.history-landmark-container img,
+.visit-pictures img {
   margin-bottom: 1em;
 }
 
-footer p, footer span{
+footer p,
+footer span {
   font-size: 0.75rem;
 }
-.footer-section{
+.footer-section {
   background-color: #dae2e7;
-  padding: 1rem
+  padding: 1rem;
 }
 
-.footer-intro-credit,.footer-intro-credit-p{
+.footer-intro-credit,
+.footer-intro-credit-p {
   font-weight: bold;
   text-align: center;
 }
 
-.footer-intro-credit-p{
+.footer-intro-credit-p {
   font-weight: normal;
 }
 
-.footer-intro-span{
+.footer-intro-span {
   display: block;
   text-align: center;
   font-weight: normal;
 }
-footer p{
+footer p {
   text-align: center;
   font-weight: bold;
-
 }
 
-.footer-info-section{
+.footer-info-section {
   margin: 0;
 }
-.footer-info-section span{
+.footer-info-section span {
   display: block;
   font-weight: normal;
   text-align: center;
 }
 
-
-#credits{
+#credits {
   font-weight: bolder;
 }
 
-.footer-texts-cols{
+.footer-texts-cols {
   display: flex;
   justify-content: center;
-  
- 
 }
 
-.info-text{
+.info-text {
   display: block;
 }
 
-
-
-@media (min-width: 768px){
-  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p,footer p, footer span{
+@media (min-width: 768px )  {
+  .footer p,
+  .footer-info-section span,
+  .footer-texts-cols,
+  .footer-info-section,
+  .footer-info-section p,
+  footer p,
+  footer span {
     font-size: 0.75rem;
     text-align: center;
   }
- 
-
 }
 
-@media (min-width: 992px){
-  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p,footer p, footer span{
+@media (min-width: 992px) {
+  .footer p,
+  .footer-info-section span,
+  .footer-texts-cols,
+  .footer-info-section,
+  .footer-info-section p,
+  footer p,
+  footer span {
     font-size: 1rem;
     text-align: start;
   }
 
-  .section-paragraphs{
+  .section-paragraphs {
     font-size: 2.75rem;
   }
 
-  .discover-contents, .visit-contents, .history-contents , .hero-contents{
+  .discover-contents,
+  .visit-contents,
+  .history-contents,
+  .hero-contents {
+    margin-top: 3em;
     margin-bottom: 10em;
   }
-  .hero-contents{
+
+  .hero-contents img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-contents {
     margin-top: 3em;
     margin-bottom: 10em;
     display: flex;
