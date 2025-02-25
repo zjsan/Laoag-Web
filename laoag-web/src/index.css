@@ -1,5 +1,4 @@
 
-
 *,html,body{
   margin: 0;
   padding: 0;
@@ -80,15 +79,18 @@ img{
   font-weight: normal;
 }
 footer p{
-  text-align: start;
+  text-align: center;
   font-weight: bold;
 
 }
 
+.footer-info-section{
+  margin: 0;
+}
 .footer-info-section span{
   display: block;
   font-weight: normal;
-  text-align: start;
+  text-align: center;
 }
 
 
@@ -98,7 +100,7 @@ footer p{
 
 .footer-texts-cols{
   display: flex;
-  justify-content: start;
+  justify-content: center;
   
  
 }
@@ -108,8 +110,8 @@ footer p{
 }
 
 
-@include media-breakpoint-up(lg){
-  .footer p,.footer-info-section span,.footer-texts-cols{
-    text-align: center;
+@media (min-width: 992px){
+  .footer p, .footer-info-section span, .footer-texts-cols, .footer-info-section, .footer-info-section p{
+    text-align: start;
   }
 }

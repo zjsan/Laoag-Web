@@ -21,7 +21,7 @@ const Footer = () => {
           <Container fluid="lg">
             <div className="footer-info-section">
               <Row>
-                <Col lg>
+                <Col lg={3}>
                   <p>
                     Laoag Ilocos Norte Travel
                     <span>
@@ -31,7 +31,7 @@ const Footer = () => {
                   </p>
                 </Col>
 
-                <Col lg>
+                <Col lg={3}>
                   <p>
                     Credits & Acknowledgments
                     <span>
@@ -42,7 +42,7 @@ const Footer = () => {
                   </p>
                 </Col>
 
-                <Col lg>
+                <Col lg={2} className="mr-0.25">
                   <p>
                     Explore Laoag City
                     <span>Landmarks & Attractions</span>
@@ -53,9 +53,9 @@ const Footer = () => {
                   </p>
                 </Col>
 
-                <Col lg>
+                <Col lg={3} >
                   <p>
-                    Explore Laoag City
+                    Follow us
                     <span>
                       Facebook: [Insert Facebook Link] Instagram: [Insert
                       Instagram Link] Twitter: [Insert Twitter Link]
