@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <section>
         <div className="footer-section">
-          <p>© 2024 Laoag Ilocos Norte Travel. All rights reserved</p>
+          <p>© 2025 Laoag Ilocos Norte Travel. All rights reserved</p>
           <p>
             This website is maintained by the Laoag Ilocos Norte Travel
             developers. The content is regularly updated to ensure accuracy.
