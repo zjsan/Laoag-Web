@@ -1,3 +1,5 @@
+
+
 *,html,body{
   margin: 0;
   padding: 0;
@@ -63,11 +65,18 @@ img{
   padding: 1rem
 }
 
-.footer-intro-credit{
+.footer-intro-credit,.footer-intro-credit-p{
   font-weight: bold;
+  text-align: center;
 }
 
 .footer-intro-credit-p{
+  font-weight: normal;
+}
+
+.footer-intro-span{
+  display: block;
+  text-align: center;
   font-weight: normal;
 }
 footer p{
@@ -76,11 +85,12 @@ footer p{
 
 }
 
-.footer-section span{
+.footer-info-section span{
   display: block;
   font-weight: normal;
   text-align: start;
 }
+
 
 #credits{
   font-weight: bolder;
@@ -98,3 +108,8 @@ footer p{
 }
 
 
+@include media-breakpoint-up(lg){
+  .footer p,.footer-info-section span,.footer-texts-cols{
+    text-align: center;
+  }
+}
