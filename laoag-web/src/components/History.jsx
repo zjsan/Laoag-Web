@@ -3,7 +3,7 @@
 const History = () => {
   return (
     <section id="history-section">
-      <div className="histor-contents">
+      <div className="history-contents">
       <h2>A Glimpse into History</h2>
         <div className="history-landmark-container">
             <img className="history-pictures img-fluid rounded" id="cathedral" src="/images/church2.webp" alt="St. William Cathedral"/>
