@@ -3,7 +3,7 @@ const Visit = () => {
     <section id = "visit-section">
       <div className="visit-contents">
             <h2>Why Visit Laoag?</h2>
-            <p className="lead fs-5 mt-3">Whether you’re drawn by the allure of its historical landmarks, the beauty of its natural surroundings, or the warmth of its people, Laoag City offers something for every traveler. From exploring ancient churches and colonial structures to enjoying outdoor adventures in the nearby sand dunes and beaches, Laoag is a destination that promises unforgettable experiences.</p>
+            <p className="lead fs-6 mt-3 section-paragraphs">Whether you’re drawn by the allure of its historical landmarks, the beauty of its natural surroundings, or the warmth of its people, Laoag City offers something for every traveler. From exploring ancient churches and colonial structures to enjoying outdoor adventures in the nearby sand dunes and beaches, Laoag is a destination that promises unforgettable experiences.</p>
         </div>
         <div className="visit-pictures">
             <div className="visit-pictures-top">
