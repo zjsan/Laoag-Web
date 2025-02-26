@@ -68,12 +68,20 @@ img {
 
 .history-landmark-container img,
 .visit-pictures img {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+}
+
+.visit-pictures{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 0.85em;
 }
 
 footer p,
 footer span {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 .footer-section {
   background-color: #dae2e7;
@@ -122,7 +130,7 @@ footer p {
   display: block;
 }
 
-@media (min-width: 768px )  {
+@media (min-width: 768px ) and (max-width: 991px) {
   .footer p,
   .footer-info-section span,
   .footer-texts-cols,
@@ -133,6 +141,13 @@ footer p {
     font-size: 0.75rem;
     text-align: center;
   }
+
+  .visit-pictures{
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px){
