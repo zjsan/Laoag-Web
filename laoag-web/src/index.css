@@ -127,7 +127,7 @@ footer p {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1024px){
   .footer p,
   .footer-info-section span,
   .footer-texts-cols,
@@ -151,12 +151,14 @@ footer p {
     margin-bottom: 10em;
   }
 
-  .hero-contents img {
+  .hero-contents img, .discover-img img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
+
+  
 }
 
 @media (min-width: 1200px) {
