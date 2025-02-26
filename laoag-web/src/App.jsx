@@ -14,7 +14,7 @@ function App() {
     <>
       <Navbar/>
       <Intro />
-      <main className='container'>
+      <main className='container mx-auto p-4'>
        
         <Hero />
         <History />
