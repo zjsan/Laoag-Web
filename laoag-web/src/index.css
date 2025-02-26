@@ -49,7 +49,15 @@ p {
 #history-section,
 #visit-section,
 #discover-section {
-  margin: 5em 0;
+  margin: 7em 0;
+}
+
+.history-landmark-container, .visit-pictures-container,.discover-img{
+  margin-top: 1.5em;
+}
+
+.discover-img{
+  margin-bottom: 2em;
 }
 
 img {
@@ -135,7 +143,7 @@ footer p {
   .footer-info-section p,
   footer p,
   footer span {
-    font-size: 1rem;
+    font-size: 0.85rem;
     text-align: start;
   }
 
@@ -148,7 +156,7 @@ footer p {
   .history-contents,
   .hero-contents {
     margin-top: 3em;
-    margin-bottom: 7.5em;
+    margin-bottom: 5em;
   }
 
   .hero-contents img, .discover-img img , .history-pictures, .visit-pictures{
