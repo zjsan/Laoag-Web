@@ -151,13 +151,16 @@ footer p {
     margin-bottom: 10em;
   }
 
-  .hero-contents img, .discover-img img {
+  .hero-contents img, .discover-img img , .history-pictures{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
 
+  .history-pictures{
+    width: 70%;
+  }
   
 }
 
