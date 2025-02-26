@@ -148,10 +148,10 @@ footer p {
   .history-contents,
   .hero-contents {
     margin-top: 3em;
-    margin-bottom: 10em;
+    margin-bottom: 7.5em;
   }
 
-  .hero-contents img, .discover-img img , .history-pictures{
+  .hero-contents img, .discover-img img , .history-pictures, .visit-pictures{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -162,6 +162,14 @@ footer p {
     width: 70%;
   }
   
+  .visit-pictures{
+    width: 70%;
+    margin-bottom: 1em;
+  }
+
+  .visit-pictures-container{
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1200px) {
