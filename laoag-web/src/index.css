@@ -138,12 +138,12 @@ footer p {
   .footer-info-section p,
   footer p,
   footer span {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .visit-pictures{
-    width: 60%;
+    width: 90%;
     margin-top: 1em;
     margin-bottom: 2em;
   }
