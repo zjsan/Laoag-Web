@@ -206,4 +206,15 @@ footer p {
   .hero-contents img{
     margin-right: 1.5em;
   }
+
+  .visit-pictures{
+    width: 50%;
+  }
+  
+  .history-pictures{
+    width: 50%;
+    height: 580px;
+    border-radius: 70%;
+  }
 }
+
