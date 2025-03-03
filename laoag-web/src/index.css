@@ -208,7 +208,8 @@ footer p {
   }
 
   .visit-pictures{
-    width: 50%;
+    width: 45%;
+    border-radius: 50%;
   }
   
   
@@ -222,7 +223,17 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-items: center ;
-    margin-right: 0;
   }
+
+   .discover-img img , .history-pictures, .visit-pictures{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .visit-pictures-top, .visit-pictures-bottom{
+    display: flex;
+  }
+
 }
 

@@ -1,3 +1,7 @@
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 const Visit = () => {
   return (
     <section id = "visit-section">
@@ -16,6 +20,7 @@ const Visit = () => {
                 <img className="img-fluid rounded visit-pictures" src="/images/442000598_1673363960156598_4705785343291275072_n.jpg" alt="Daklisan Drummers performing during the opening parade of Pamulinawen Festival"/>
             </div>
          </div>
+         
     </section>
   )
 }
