@@ -211,10 +211,18 @@ footer p {
     width: 50%;
   }
   
+  
   .history-pictures{
-    width: 50%;
-    height: 580px;
+    width: 40%;
+    height: 500px;
     border-radius: 70%;
+  }
+  
+  .history-landmark-container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center ;
+    margin-right: 0;
   }
 }
 
