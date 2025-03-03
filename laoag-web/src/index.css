@@ -239,6 +239,9 @@ footer p {
     display: flex;
   }
 
+  .visit-pictures-top{
+    margin-bottom: 1em;
+  }
   .discover-img img{
     width: 100%;
   }
