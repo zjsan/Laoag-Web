@@ -2,7 +2,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import '../navbar.css'
 const NavBar = () => {
   return (
-    <Navbar className="navbar" expand="lg">
+    <Navbar className="navbar" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#">Laoag Ilocos Norte Travel</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-button"/>
