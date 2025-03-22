@@ -53,13 +53,12 @@ const Footer = () => {
                   </p>
                 </Col>
 
-                <Col lg={3} >
+                <Col lg={3}>
                   <p>
                     Follow us
-                    <span>
-                      Facebook: [Insert Facebook Link] Instagram: [Insert
-                      Instagram Link] Twitter: [Insert Twitter Link]
-                    </span>
+                    <span>Facebook: [Insert Facebook Link]</span>
+                    <span>Instagram: [Insert Instagram Link]</span>
+                    <span>Twitter: [Insert Twitter Link]</span>
                   </p>
                 </Col>
               </Row>
