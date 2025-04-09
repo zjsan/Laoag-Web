@@ -25,6 +25,10 @@ p {
   font-size: 1rem;
   text-align: justify;
 }
+
+#text-visit-1ending{
+  letter-spacing: 1px;
+}
 .intro-section {
   background: url("/images/Laoag-City-Ilocos-Norte.jpg") no-repeat center center;
   background-size: cover;

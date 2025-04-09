@@ -20,20 +20,20 @@ const Hero = () => {
               in the native Ilocano language, symbolizing the warmth and
               hospitality of its people. The city’s rich history, stunning
               landscapes, and cultural heritage make it a must-visit destination
-              for travelers seeking to experience the best of the Ilocos region.
+              for travelers seeking to experience the best of the <strong>Ilocos region</strong>.
             </p>
             <p className="lead fs-6 mt-3 section-paragraphs">
               But Laoag is more than just a city—it’s an experience waiting to
-              unfold. From the golden dunes of La Paz, where adventure seekers
+              unfold. From the golden dunes of <strong>La Paz</strong>, where adventure seekers
               can race across the sand on 4x4s, to the iconic landmarks that
               whisper tales of the past, every corner of the city has something
               special to offer. Stroll through the charming streets lined with
-              Spanish-era architecture, savor authentic Ilocano cuisine, or
+              <strong> Spanish-era architecture</strong>, savor authentic <strong>Ilocano cuisine</strong>, or
               embark on a journey to the nearby coastal gems and hidden natural
               wonders. Whether you're here for history, adventure, or
               relaxation, there's so much more to discover. Let us take you on a virtual tour of Laoag
-              City—where every click brings you closer to the heart of Ilocos
-              Norte.
+              City—where every click brings you closer to the heart of <strong>Ilocos
+              Norte.</strong>
             </p>
           </div>
         </div>

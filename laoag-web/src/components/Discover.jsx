@@ -10,12 +10,18 @@ const Discover = () => {
 
         <div className="discover-text">
           <p className="lead fs-6 mt-3 section-paragraphs">
-            Join us as we explore the Sunshine City’s rich history, iconic
-            landmarks, delectable cuisine, and vibrant culture. Laoag is not
-            just a place to visit—it’s a place to experience and remember.
-            Whether you’re planning your first trip or returning to discover
-            more, Laoag City welcomes you with open arms and endless
-            possibilities.
+            Step into the heart of Ilocos Norte and uncover the beauty, history,
+            and vibrant energy of Laoag City. From its iconic landmarks and
+            colonial architecture to its bustling street markets and sun-kissed
+            shores, the Sunshine City offers a blend of adventure and cultural
+            charm. Feel the pulse of the city as you stroll through its historic
+            streets, savor the rich flavors of Ilocano cuisine, and witness the
+            electrifying beats of the Pamulinawen Festival. Whether you're
+            marveling at the golden hues of sunset by Fort Ilocandia Beach,
+            braving the thrilling La Paz Sand Dunes, or indulging in the aroma
+            of street food by the public market, every moment in Laoag is an
+            experience to cherish. Your journey begins here—dive deeper, explore
+            more, and let Laoag City leave an imprint on your heart.
           </p>
         </div>
       </div>
