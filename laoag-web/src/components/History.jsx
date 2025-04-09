@@ -2,7 +2,7 @@ const History = () => {
   return (
     <section id="history-section">
       <div className="history-contents">
-        <h2>A Glimpse into History</h2>
+        <h2 id="history">A Glimpse into History</h2>
         <div className="history-landmark-container">
           <img
             className="history-pictures history-img"

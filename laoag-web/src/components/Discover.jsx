@@ -2,7 +2,7 @@ const Discover = () => {
   return (
     <section id="discover-section">
       <div className="discover-contents">
-        <h2>Discover Laoag City</h2>
+        <h2 id="discover">Discover Laoag City</h2>
         <div className="discover-img img-fluid rounded">
           {" "}
           <img src="/images/img8469.jpg" alt="Ilocos Norte Capitol" />
