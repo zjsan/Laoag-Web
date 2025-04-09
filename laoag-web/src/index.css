@@ -56,6 +56,7 @@ p {
   margin: 7em 0;
 }
 
+
 .history-landmark-container, .visit-pictures-container,.discover-img{
   margin-top: 1.5em;
 }
@@ -218,10 +219,12 @@ footer p {
     margin-bottom: 10em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   .hero-contents img{
     margin-right: 1.5em;
+    height: 600px;
   }
 
   .visit-pictures{
