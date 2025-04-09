@@ -56,7 +56,10 @@ p {
   margin: 7em 0;
 }
 
-
+#history, #visit, #discover{
+  position: relative;
+  top: -20px;    /* Negative header height */
+}
 .history-landmark-container, .visit-pictures-container,.discover-img{
   margin-top: 1.5em;
 }
